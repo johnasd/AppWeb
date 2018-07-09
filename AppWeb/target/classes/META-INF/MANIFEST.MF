@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: johnpatrick
+Build-Jdk: 9.0.1
+Implementation-Title: AppWeb
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.app-web
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/AppWeb
+Created-By: Maven Integration for Eclipse
+

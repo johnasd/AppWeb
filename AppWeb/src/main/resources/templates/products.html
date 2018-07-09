@@ -1,0 +1,20 @@
+<div th:fragment ="products">
+	<h2>Product</h2>
+	<div class="container">
+		<table class="table table-striped">
+		    <thead>
+		      <tr>
+		        <th>Name</th>
+		        <th>Description</th>
+		        <th>Price</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr th:each="prod : ${theProducts}">
+		        <td th:text="${{prod.name}}"></td>
+		        <td th:text="${prod.description}"></td>
+		        <td th:text="${prod.price}"></td>
+		    </tbody>
+		  </table>
+	</div>
+</div>
